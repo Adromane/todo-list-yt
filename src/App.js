@@ -9,7 +9,7 @@ function App() {
 
   const onAddTask = (value) => {
     setTodos([
-      ...todos,
+      ...tous,
       {
         id: new Date().getTime(),
         name: value,
