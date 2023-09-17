@@ -1,15 +1,15 @@
 import React, {useState} from "react"
 import './App.css';
 import AddTask from './components/AddTask';
-import Liste from './components/List';
+import List from './components/List';
 
 function App() {
 
   const [todos, setTodos] = useState([])
 
-  const onAddTask = (value) => { 
+  const onAddTask = (value) => {
     setTodos([
-      ...tous,
+      ...todos,
       {
         id: new Date().getTime(),
         name: value,
@@ -18,7 +18,7 @@ function App() {
     ])
   }
 
-  const onToggle = (tous) => {
+  const onToggle = (todo) => {
     setTodos(
       todos.map((obj) => obj.id === todo.id ? {...obj, checked: !todo.checked } : obj)
     )
