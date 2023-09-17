@@ -7,7 +7,7 @@ function App() {
 
   const [todos, setTodos] = useState([])
 
-  const onAddTask = (value) => {
+  const onAddTask = (value) => { 
     setTodos([
       ...tous,
       {
