@@ -1,7 +1,7 @@
 import React, {useState} from "react"
 import './App.css';
 import AddTask from './components/AddTask';
-import List from './components/List';
+import Liste from './components/List';
 
 function App() {
 
