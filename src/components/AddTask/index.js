@@ -30,7 +30,7 @@ function AddTask({onAddTask}) {
   return (
     <input
       className='new-todo'
-      placeholder='Adicionar nova tarefa...'
+      placeholder='Ajouter une nouvelle tâche...'
       value={value}
       onChange={(event) => setValue(event.target.value)}
       onKeyDown={(event) => keyPressed(event)}
