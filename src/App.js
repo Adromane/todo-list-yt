@@ -13,7 +13,7 @@ function App() {
       {
         id: new Date().getTime(),
         name: value,
-        checked: false
+        checked: false 
       }
     ])
   }
