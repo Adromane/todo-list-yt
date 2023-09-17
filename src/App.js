@@ -18,7 +18,7 @@ function App() {
     ])
   }
 
-  const onToggle = (todo) => {
+  const onToggle = (tous) => {
     setTodos(
       todos.map((obj) => obj.id === todo.id ? {...obj, checked: !todo.checked } : obj)
     )
