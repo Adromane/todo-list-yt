@@ -43,7 +43,7 @@ function App() {
         <AddTask onAddTask={onAddTask} />
         <List todos={todos} onRemove={onRemove} onToggle={onToggle} />
       </div>
-    </section>
+    </section> 
   );
 }
 
