@@ -37,7 +37,7 @@ function App() {
   return (
     <section id="app" className='container'>
       <header>
-        <h1 className='title'>Lista de Tarefas</h1>
+        <h1 className='title'>Liste de tâches</h1>
       </header>
       <div className='main'>
         <AddTask onAddTask={onAddTask} />
