@@ -16,7 +16,7 @@ function List({todos, onRemove, onToggle}) {
             >{item.name}</span>
             <button
               type='button'
-              onClick={() => onRemove(item)}
+              onClick={() => onRemove(item)} 
             >
               <MdDelete size={24} />
             </button>
