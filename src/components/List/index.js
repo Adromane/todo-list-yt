@@ -8,7 +8,7 @@ function List({todos, onRemove, onToggle}) {
   return (
     <ul className='todo-list'>
       {
-        todos.map((item) => (
+        todos.map((item) => ( 
           <li key={item.id}>
             <span
               onClick={() => onToggle(item)}
